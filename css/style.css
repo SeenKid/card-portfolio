@@ -161,3 +161,43 @@ button:not([disabled]):hover{
     color: white;
     transition: box-shadow 0.2s ease-out;
 }
+
+/* Center child elements */
+body,
+.website-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+}
+
+#eye {
+    color: white;
+    size: 24px;
+    scale: 1.2;
+}
+
+/* Styles for website counter container */
+.website-counter {
+    background: transparent;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-out;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
